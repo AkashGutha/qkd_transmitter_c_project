@@ -6,9 +6,13 @@
 #define ULONG unsigned long
 
 // unsigned types for int
-#define UINT8 uint_8t
-#define UINT16 uint_16t
-#define UINT32 uint_32t
-#define UINT64 uint_64t
+#define UINT8 uint8_t
+#define UINT16 uint16_t
+#define UINT32 uint32_t
+#define UINT64 uint64_t
 
-
+// unsigned pointer types for int
+#define UP8 uint8_t *
+#define UP16 uint16_t *
+#define UP32 uint32_t *
+#define UP64 uint64_t *
